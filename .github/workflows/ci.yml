@@ -10,4 +10,6 @@ jobs:
 
       - uses: actions/setup-python@v7
         with:
-          python-v
+          python-version: "3.13"
+
+      - run: python hello.py
